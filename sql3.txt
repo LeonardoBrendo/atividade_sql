@@ -1,6 +1,8 @@
-
-
+CREATE TABLE pessoa(
+   id integer not null primary key,
+   nome VARCHAR(250),
+   altura float(5,2)
+)
 insert into pessoa values (1, 'Caua', 1.56)
 insert into pessoa values (2, 'Mendes', 1.61)
 insert into pessoa values (3, 'Raimilson', 1.63)
-

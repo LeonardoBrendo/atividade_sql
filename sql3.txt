@@ -6,3 +6,5 @@ CREATE TABLE pessoa(
 insert into pessoa values (1, 'Caua', 1.56)
 insert into pessoa values (2, 'Mendes', 1.61)
 insert into pessoa values (3, 'Raimilson', 1.63)
+
+select nome, idade from pessoa as p order by nome;

@@ -1,0 +1,5 @@
+CREATE TABLE pessoa(
+   id integer not null primary key,
+   nome VARCHAR(250),
+   altura float(5,2)
+)
